@@ -1,3 +1,5 @@
+/*https://origamid.com/projetos/flexbox-guia-completo/*/
+
 body{
 	width:100%;
 	align-items:center;
@@ -13,27 +15,28 @@ body{
 	max-width:960px;
 }
 
-.main-intro,.twitter,.container,footer{
+.texto-intro,.container{
 	padding:0 1em;
 }
 
-.main-intro h2{
+.texto-intro h2{
 	font-weight:300;
 	font-size:1.25em;
 	color:#708090;
 }
 
-.projects{
+.conteudo-blocos{
 	display:flex;
 	flex-wrap:wrap;
 	margin:auto;
 }
 
-.project{
+.bloco{
 	height:160px;
 	display:flex;
 	flex-direction:column;
-	align-items:center;flex:1 300px;
+	align-items:center;
+	flex:1 300px;
 	justify-content:center;
 	text-align:center;
 	padding:2em;
@@ -42,76 +45,66 @@ body{
 	transition:transform .5s
 }
 
-.project svg{
+.bloco svg{
 	width:4em;
 	fill:#fff;
 	margin-bottom:2em;
 }
 
-.project p{
+.bloco p{
 	font-size:1em;
 	font-weight:500;
+	/*Define a visibilidade de dois elementos divs*/
 	backface-visibility:hidden;
 }
 
-.project a{
+.bloco a{
 	text-decoration:none;
 	color:#fff;
 	display:block;
 }
 
-.twitter{
-	margin:2em 0;
+.extras{
+	background:#181717;
 }
 
-.node{
-	background:#393;
+.contato{
+	background:#181717;
 }
 
-.dribbble{
-	background:#ea4c89;
-}
-
-.insta{
-	background:#e4405f;
+.portfolio{
+	background:#181717;
 }
 
 .git{
 	background:#181717;
 }
 
-.codepen{
-	background:#000;
+.sobre-mim{
+	background:#181717;
 }
 
-.linkedin{
-	background:#0077b5;
+.ope-sociais{
+	background:#181717;
 }
 
-footer{margin-top:2em;
-	color:#708090;
-}
-
-footer a{color:#000;
-}
-
-.love{
-	color:red;margin:0 .25em;
-}
 
 @media (min-device-width:768px){
-	.project{
+	.bloco{
 		flex:1 200px;
 	}   
 }
 
 @media (min-width:960px){
-	.main-intro h2{
+	.texto-intro h2{
 		font-size:2em;
 	}
-	.project{
+	
+	.bloco{
 		flex:1 150px;
-	}.project:hover{
+	}
+	
+	.bloco:hover{
 		transform:scale(1.1);
 	}
 }
