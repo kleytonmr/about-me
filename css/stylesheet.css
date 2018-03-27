@@ -1,0 +1,117 @@
+body{
+	width:100%;
+	align-items:center;
+	line-height:1.25;
+	font-family:Hind,sans-serif;
+	display:flex;
+	flex-direction:column;
+
+}
+
+.container{
+	margin:3em auto;
+	max-width:960px;
+}
+
+.main-intro,.twitter,.container,footer{
+	padding:0 1em;
+}
+
+.main-intro h2{
+	font-weight:300;
+	font-size:1.25em;
+	color:#708090;
+}
+
+.projects{
+	display:flex;
+	flex-wrap:wrap;
+	margin:auto;
+}
+
+.project{
+	height:160px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;flex:1 300px;
+	justify-content:center;
+	text-align:center;
+	padding:2em;
+	margin:1.2em;
+	border-radius:.5em;
+	transition:transform .5s
+}
+
+.project svg{
+	width:4em;
+	fill:#fff;
+	margin-bottom:2em;
+}
+
+.project p{
+	font-size:1em;
+	font-weight:500;
+	backface-visibility:hidden;
+}
+
+.project a{
+	text-decoration:none;
+	color:#fff;
+	display:block;
+}
+
+.twitter{
+	margin:2em 0;
+}
+
+.node{
+	background:#393;
+}
+
+.dribbble{
+	background:#ea4c89;
+}
+
+.insta{
+	background:#e4405f;
+}
+
+.git{
+	background:#181717;
+}
+
+.codepen{
+	background:#000;
+}
+
+.linkedin{
+	background:#0077b5;
+}
+
+footer{margin-top:2em;
+	color:#708090;
+}
+
+footer a{color:#000;
+}
+
+.love{
+	color:red;margin:0 .25em;
+}
+
+@media (min-device-width:768px){
+	.project{
+		flex:1 200px;
+	}   
+}
+
+@media (min-width:960px){
+	.main-intro h2{
+		font-size:2em;
+	}
+	.project{
+		flex:1 150px;
+	}.project:hover{
+		transform:scale(1.1);
+	}
+}
