@@ -76,24 +76,12 @@ body{
 	background:#3b5998;
 }
 
-/*https://www.flaticon.com/free-icon/facebook-logo_33702*/
-.Facebook svg{
-	width:4em;
-	height: 4em;
-	enable-background:new 0 0 90 90;
-}
-
 .contato{
-	background:#181717;
+	background:#94d200;
 }
 
 .portfolio{
 	background:#dd4b39;
-}
-
-.portfolio img{
-	height: 30%	;
-	width: 30%;
 }
 
 .git{
@@ -101,12 +89,7 @@ body{
 }
 
 .sobre-mim{
-	background:#181717;
-}
-
-.sobre-mim svg{
-	width:4em;
-	height: 4em;
+	background:#005449;
 }
 
 .ope-sociais{
@@ -114,8 +97,9 @@ body{
 }
 
 .ope-sociais img{
-	height: 70%	;
 	width: 70%;
+	height: 70%;
+	margin-bottom:1.2em;
 }
 
 
