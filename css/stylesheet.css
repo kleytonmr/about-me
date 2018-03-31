@@ -64,8 +64,23 @@ body{
 	display:block;
 }
 
-.extras{
-	background:#181717;
+.LinkedIn{
+	background:#007bb6;
+}
+
+.Instagram{
+	background:#e4405f;
+}
+
+.Facebook{
+	background:#3b5998;
+}
+
+/*https://www.flaticon.com/free-icon/facebook-logo_33702*/
+.Facebook svg{
+	width:4em;
+	height: 4em;
+	enable-background:new 0 0 90 90;
 }
 
 .contato{
@@ -73,7 +88,12 @@ body{
 }
 
 .portfolio{
-	background:#181717;
+	background:#dd4b39;
+}
+
+.portfolio img{
+	height: 30%	;
+	width: 30%;
 }
 
 .git{
@@ -84,8 +104,18 @@ body{
 	background:#181717;
 }
 
+.sobre-mim svg{
+	width:4em;
+	height: 4em;
+}
+
 .ope-sociais{
-	background:#181717;
+	background:#000000;
+}
+
+.ope-sociais img{
+	height: 70%	;
+	width: 70%;
 }
 
 
