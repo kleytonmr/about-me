@@ -2,19 +2,63 @@
 <html lang=pt-br>
 
   <head>
+    <title>Kleyton Matos Ramos - Web Developer</title>
     <meta charset="utf-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Kleyton Matos Ramos">
     <meta name="description" content="Portfolio de Kleyton Matos Ramos, estudante de Sistemas de Informação, Espirito Santo, Brasil">
-    <title>Kleyton Matos Ramos - Web Developer</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
   </head>
 
   <body>
-    <div class="container">
-
+    <!-- sidebar -->
+    <div id="mySidenav" class="sidenav">
+      <a href="sobre-mim.html" id="sobre">Sobre</a>
+      <a href="portfolio.html" id="portfolio">Portfólio</a>
+      <a href="http://opesociais.com.br/" id="trabalho">Trabalho</a>
+      <a href="contato.html" id="contato">Contato</a>
+      <a href="https://github.com/kleytonmr" id="github">Github</a>
+      <a href="https://www.linkedin.com/in/kleyton-matos-ramos-70b143112/" id="linkedIn">LinkedIn</a>
+      <a href="https://www.facebook.com/kleyton.matosramos" id="facebook">Facebook</a>
+      <a href="https://www.instagram.com/kleytonmr/" id="instagram">Instagram</a>
+    </div>
+    
+    <div class="container-contato">
+      <div class="container-form">
+        <center><h2 style="font-size: 2vw; color: white;">Entre em contato:</h2></center>
+        <form action="/action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label style="color: white;" for="fname">Primeiro Nome </label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Seu nome..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label  style="color: white;">Último nome</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Seu último nome..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label style="color: white;" for="subject">Menssagem</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Escreva aqui.." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Enviar">
+          </div>
+        </form>
+      </div>
     </div>
   </body>
 </html>
