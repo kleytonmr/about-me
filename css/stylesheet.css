@@ -93,39 +93,39 @@ body{
 	background:#ffa500;
 }
 
-.ope-sociais{
-	background:#5a0000;
+.smartfit{
+	background:#000;
 }
 
-.ope-sociais img{
-	width: 70%;
-	height: 70%;
-	margin-bottom:1.2em;
+.smartfit img{
+	width: 53%;
+	height: 62%;
+	margin-bottom:1em;
 }
 
 
 @media (min-device-width:768px){
 	.bloco{
 		flex:1 200px;
-	}   
+	}
 }
 
 @media (min-width:960px){
 	.texto-intro h2{
 		font-size:2em;
 	}
-	
+
 	.bloco{
 		flex:1 150px;
 	}
-	
+
 	.bloco:hover{
 		transform:scale(1.1);
 	}
 }
 
 /* -------------------------------
-       			CONTATO 
+       			CONTATO
 ---------------------------------*/
 .container-contato{
 	margin:3em auto;
@@ -262,7 +262,7 @@ input[type=submit]:hover {
 
 .img{
 	margin: auto;
-	margin-right: 55px; 
+	margin-right: 55px;
 	border-radius: 150px;
 	height: 300px;
 	width: 300px;
@@ -271,7 +271,7 @@ input[type=submit]:hover {
 .conteudo-sobre{
 	background: red;
 	height: 400px;
-	width: 100%;	
+	width: 100%;
 }
 
 
